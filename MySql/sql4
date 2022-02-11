@@ -1,0 +1,24 @@
+CREATE TABLE emp(Empno INT, Ename VARCHAR(10),job VARCHAR(9),Mgr VARCHAR(4),Hiredate Date,Sal INT,Comm INT,Deptno INT);
+
+INSERT INTO emp(Empno, Ename, sal, Deptno)
+VALUES(7369 , 'SMITH',800 ,20);
+INSERT INTO emp(Empno, Ename,sal,Deptno)
+VALUES(7499, 'ALLEN ',1600,30);
+INSERT INTO emp(Empno, Ename,sal,Deptno)
+VALUES(7521, 'WARD',1250 ,30);
+INSERT INTO emp(Empno, Ename,sal,Deptno)
+VALUES(7566, 'JONES',2975 ,20);
+INSERT INTO emp(Empno, Ename,sal,Deptno)
+VALUES(7654, 'MARTIN',1250 ,30);
+INSERT INTO emp(Empno, Ename,sal,Deptno)
+VALUES(7698,'BLAKE',2850 ,30);
+INSERT INTO emp(Empno, Ename,sal,Deptno)
+VALUES(7782 , 'CLARK',2450 ,10);
+INSERT INTO emp(Empno, Ename,sal,Deptno)
+VALUES(7788, 'SCOTT',3000,20);
+INSERT INTO emp(Empno, Ename,sal,Deptno)
+VALUES(7839 , 'KING ',5000,10);
+
+COMMIT;
+SELECT * FROM emp;
+DROP TABLE emp;
